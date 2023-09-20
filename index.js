@@ -1,6 +1,6 @@
 let militaryTime = true;
-const element = document.getElementById("military-standard");
-element.addEventListener("click", changeTime);
+const changeTimeButton = document.getElementById("military-standard");
+changeTimeButton.addEventListener("click", changeTime);
 function changeTime() {
     if (!militaryTime) {
         militaryTime = true;
